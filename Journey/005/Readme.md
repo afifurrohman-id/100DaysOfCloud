@@ -1,38 +1,42 @@
 
-# Acessing AWS (Udemy | Stephane Mareek)
+# Multi Factor Authentication - MFA (Udemy | Stephane Mareek)
 
 ## Introduction
-AWS provides several options for accessing them, and some are discussed here. The journey will be like this:
-- AWS Management Console
-- AWS Command Line Interface (CLI) 
-- AWS Software Developer Kit (SDK)
+Another Action to Protect AWS Account with this action your account is more protect.
 
 ## Cloud Research
 
-### AWS Management Console
-• AWS Management Console is a web application that comprises and refers to a broad collection of service consoles for managing AWS resources. When you first sign in, you see the console home page
+### Multi Factor Authentication - MFA
+•Users have access to your account and can possibly change configurations or delete resources in your AWS account<br>
+• You want to protect your Root Accounts and IAM users<br>
+• MFA = password you know + security device you own<br>
+*Main benefit of MFA:<br>
+if a password is stolen or hacked, the account is not compromised
 
-### AWS Command Line Interface (CLI) 
-• A tool that enables you to interact with AWS services using commands in your command-line shell<br>
-• Direct access to the public APIs of AWS services<br>
-• You can develop scripts to manage your resources<br>
-• It’s open-source https://github.com/aws/aws-cli<br>
-• Alternative to using AWS Management Console<br>
+### MFA devices options in AWS
+• Virtual MFA device
+![1_IVQXP0mpm017BCltj0mEcg](https://user-images.githubusercontent.com/118882411/211008210-73c0c4b1-690d-4832-ad96-87a30828d336.png)
 
-### AWS Software Development Kit (SDK)
-• AWS Software Development Kit (AWS SDK)<br>
-• Language-specific APIs (set of libraries)<br>
-• Enables you to access and manage AWS services programmatically<br>
-• Embedded within your application<br>
-• Supports<br>
-• SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)<br>
-• Mobile SDKs (Android, iOS, …)<br>
-• IoT Device SDKs (Embedded C, Arduino, …)<br>
-• Example: AWS CLI is built on AWS SDK for Python<br>
+<br>
+• Universal 2nd Factor (U2F) Security Key
+
+![Security-Key-by-Yubico1](https://user-images.githubusercontent.com/118882411/211008351-011f0093-4b4b-4084-9e5a-b709064e9b1b.png)
+
+<br>
+• Hardware Key Fob MFA Device
+
+![authH2-](https://user-images.githubusercontent.com/118882411/211009172-e7024f00-ad65-45d2-ab91-fdfde63ed906.jpg)
+
+
+<br>
+• Hardware Key Fob MFA Device for AWS GovCloud (US)
+
+![download](https://user-images.githubusercontent.com/118882411/211008615-f9ea5d5b-3f35-4f15-b541-646bc5ff36d4.jpg)
+<br>
 
 ## Next Steps
 
-- IAM Roles for Services 
+- Accessing AWS
 
 ## Social Proof
 
