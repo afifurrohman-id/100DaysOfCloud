@@ -1,52 +1,39 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Acessing AWS (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+AWS provides several options for accessing them, and some are discussed here. The journey will be like this:
+- AWS Management Console
+- AWS Command Line Interface (CLI) 
+- AWS Software Developer Kit (SDK)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### AWS Management Console
+• AWS Management Console is a web application that comprises and refers to a broad collection of service consoles for managing AWS resources. When you first sign in, you see the console home page
 
-## Try yourself
+### AWS Command Line Interface (CLI) 
+• A tool that enables you to interact with AWS services using commands in your command-line shell<br>
+• Direct access to the public APIs of AWS services<br>
+• You can develop scripts to manage your resources<br>
+• It’s open-source https://github.com/aws/aws-cli<br>
+• Alternative to using AWS Management Console<br>
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### AWS Software Development Kit (SDK)
+• AWS Software Development Kit (AWS SDK)<br>
+• Language-specific APIs (set of libraries)<br>
+• Enables you to access and manage AWS services programmatically<br>
+• Embedded within your application<br>
+• Supports<br>
+• SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)<br>
+• Mobile SDKs (Android, iOS, …)<br>
+• IoT Device SDKs (Embedded C, Arduino, …)<br>
+• Example: AWS CLI is built on AWS SDK for Python<br>
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- IAM Roles for Services 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud)
