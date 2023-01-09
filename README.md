@@ -33,8 +33,8 @@ Really hope to become a Professional Web Developers
 - [x] ☁️ 6 > [Accessing AWS](Journey/006/Readme.md)
 - [x] ☁️ 7 > [IAM: Roles for Services](Journey/007/Readme.md)
 - [x] ☁️ 8 > [IAM: Security Tools](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [x] ☁️ 9 > [Introduction to Amazon EC2](Journey/009/Readme.md)
+- [x] ☁️ 10 > [EC2 sizing & configuration options](Journey/010/Readme.md)
 
 ## Walking down the road
 
