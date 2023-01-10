@@ -15,7 +15,7 @@ hardware (EC2 Instance Store)
 
 ## Next Steps
 
-- EC2 User Data
+- Practice to Create Web Server | EC2 Instance
 
 ## Social Proof
 
