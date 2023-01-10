@@ -38,7 +38,7 @@ I really hope to get AWS Certified Developer - Associate
 ## Walking down the road
 
 - [x] ☁️ 11 > [Create First EC2 Instance, EC2 Instance Types Basics & Security Groups](Journey/011/Readme.md)
-- [x] ☁️ 12 > [Remote Instance using SSH](Journey/012/Readme.md)
+- [x] ☁️ 12 > [Classic Ports, SSH](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
