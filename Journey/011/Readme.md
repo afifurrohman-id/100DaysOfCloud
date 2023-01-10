@@ -1,52 +1,33 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# EC2 Instance (Web Server), EC2 Instance Types Basics & Security Groups (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Now practice in real EC2!. The journey will be like this:
+- Create, Terminated EC2 Instance (Web Server)
+- Instance Types Basics
+- Security Groups 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Launching an EC2 Instance running Linux
+• Launching our first virtual server using the AWS Console<br>
+• Get a first high-level approach to the various parameters<br>
+• See that web server is launched using EC2 user data<br>
+• Learn how to start / stop / terminate our instance.<br>
 
-## Try yourself
+### EC2 Instance Types 
+• Great for a diversity of workloads such as web servers or code repositories<br>
+• Balance between:
+> Compute <br> Memory <br> Networking
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
+### Security Groups
+• Security groups are acting as a “firewall” on EC2 instances <br>
+• They regulate: 
+> Access to Ports <br> Authorised IP ranges – IPv4 and IPv6 <br> Control of inbound network (from other to the instance) <br> Control of outbound network (from the instance to other)
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Remote Instance using SSH
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud)
 
-[link](link)
