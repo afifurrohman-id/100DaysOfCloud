@@ -12,13 +12,12 @@
 
 ## Afifurrohman's Cloud Journey
 
-Hello my name is Afif, I like to learn all about IT and at my school now I'm studying Python and Linux Server Administration. On the sidelines of my busy life, I'm also learning to create my own website
+Hello, my name is Afif, I like learning all about IT and at school I am currently studying Web Programming and Linux Server Administration. On the sidelines of my busy life, I also like learning to make my own website
 
-I am very interested in the new technology of cloud computing, because it provides a lot of convenience in creating my own server and I want to learn all about it
+I am very interested in the new cloud computing technology, because it provides a lot of convenience in developing applications and managing servers
 
-Lastly, I would like to have some basic knowledge about cloud. 
-Really hope to create multiple websites from multiple servers and databases.
-Really hope to become a Professional Web Developers
+Lastly, I'd like to have some basic knowledge of the cloud.
+I really hope to get AWS Certified Developer - Associate
 
 - [Personal Website](https://afifurrohman-id.github.io)
 - [LinkedIn](https://www.linkedin.com/in/afifurrohman-id)
@@ -38,8 +37,8 @@ Really hope to become a Professional Web Developers
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
+- [x] ☁️ 11 > [Create First EC2 Instance, EC2 Instance Types Basics & Security Groups](Journey/011/Readme.md)
+- [x] ☁️ 12 > [Remeote Instance using SSH](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
