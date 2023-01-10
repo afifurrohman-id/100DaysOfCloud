@@ -17,7 +17,7 @@
 
 ## Next Steps
 
-- Remote Instance using SSH
+- Know more about Amazon EC2
 
 ## Social Proof
 
