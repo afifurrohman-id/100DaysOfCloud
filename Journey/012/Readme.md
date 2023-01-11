@@ -17,7 +17,7 @@
 
 ## Next Steps
 
-- Know more about Amazon EC2
+- Meet 2 | User & Groups managements, Chown - Chmod - Chgrp
 
 ## Social Proof
 
