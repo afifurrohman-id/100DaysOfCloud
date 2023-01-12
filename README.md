@@ -40,7 +40,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 11 > [Create First EC2 Instance, EC2 Instance Types Basics & Security Groups](Journey/011/Readme.md)
 - [x] ☁️ 12 > [Classic Ports, SSH](Journey/012/Readme.md)
 - [x] ☁️ 13 > [Meet 2 | User & Groups managements, Chown - Chmod - Chgrp](Journey/013/Readme.md)
-- [ ] ☁️ 14 > [](Journey/014/Readme.md)
+- [x] ☁️ 14 > [EC2 Instance Connect & EC2 Instance Purchasing Options](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
