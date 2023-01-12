@@ -75,7 +75,7 @@ Also you can use <code>chgrp</code> to change group<br>
 
 ## Next Steps
 
-- EC2 Instance Connect, EC2 Instances Purchasing Options & Shared Responsibility Model for EC2
+- EC2 Instance Connect & EC2 Instances Purchasing Options 
 
 ## Social Proof
 
