@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/118882411/211846448-06c566be-1da5-4bee-a374-0cd0c2276e79.png)
 
-# Meet 2 | User & Groups managements, Chown - Chmod - Chgrp
+# Meet 2 | User & Groups managements, Permission (Chown - Chmod - Chgrp)
 
 ## Introduction
 Continue linux fundamentals, now learn about about File Access Managements, User & Groups and basic command to change owner or groups files includes change permissions files . The journey will be like this:
@@ -11,7 +11,7 @@ Continue linux fundamentals, now learn about about File Access Managements, User
 
 ### User
 User just like a account, in linux you can create more than one users
-<br> NOTE: All commands in this session need privileges from administrator (root)
+<br> <b>NOTE: All commands in this session need privileges from administrator (root)</b>
 to create users in linux u can use two options: <br> 
 1. use <code>useradd</code> command <br> 
 2. use <code>adduser</code> command <br> 
