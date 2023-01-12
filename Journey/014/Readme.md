@@ -1,52 +1,30 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# EC2 Instance Connect & EC2 Instance Purchasing Options (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### EC2 Instance Connect
+- Connect to EC2 instance within browser
+- No need to use key file that was downloaded
+- The “magic” is that a temporary key is uploaded onto EC2 by AWS
+- Works only out-of-the-box with Amazon Linux 2
+- Need to make sure the port 22 is still opened!
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### EC2 Instances Purchasing Options:
+- On-Demand Instances – short workload, predictable pricing, pay by second
+- Reserved (1 & 3 years)
+- Reserved Instances – long workloads
+- Convertible Reserved Instances – long workloads with flexible instances
+- Savings Plans (1 & 3 years) –commitment to an amount of usage, long workload
+- Spot Instances – short workloads, cheap, can lose instances (less reliable)
+- Dedicated Hosts – book an entire physical server, control instance placement
+- Dedicated Instances – no other customers will share your hardware
+- Capacity Reservations – reserve capacity in a specific AZ for any duration
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- EC2 Instance Storage Section
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud)
