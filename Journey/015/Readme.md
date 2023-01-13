@@ -1,52 +1,46 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# EC2 Instance Storage (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+EC2 Instance storage is the temporary block storage service provided by AWS. EC2 instance storage, in itself, is not a storage service, but essentially it is a part of the EC2 service. These storage devices physically lie on the same host that provides the EC2 instance and are essentially useful to store temporary data associated with the EC2 instances. The journey will be like this:
+- About EBS Volume
+- EBS – Delete on Termination attribute
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### What’s an EBS Volume?
+- An EBS (Elastic Block Store) Volume is a network drive you can attach
+to your instances while they run
+- It allows your instances to persist data, even after their termination
+- They can only be mounted to one instance at a time (at the CCP level)
+- They are bound to a specific availability zone
+- Analogy: Think of them as a “network USB stick”
+- Free tier: 30 GB of free EBS storage of type General Purpose (SSD) or
+Magnetic per month
 
-## Try yourself
+### EBS Volume
+- It’s a network drive (i.e. not a physical drive)
+- It uses the network to communicate the instance, which means there might be a bit of
+latency
+- It can be detached from an EC2 instance and attached to another one quickly
+- It’s locked to an Availability Zone (AZ)
+- An EBS Volume in us-east-1a cannot be attached to us-east-1b
+- To move a volume across, you first need to snapshot it
+- Have a provisioned capacity (size in GBs, and IOPS)
+- You get billed for all the provisioned capacity
+- You can increase the capacity of the drive over time
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### AWS Software Development Kit (SDK)
+- Controls the EBS behaviour when an EC2 instance terminates
+> By default, the root EBS volume is deleted (attribute enabled)
+<br> By default, any other attached EBS volume is not deleted (attribute disabled)
+- This can be controlled by the AWS console / AWS CLI
+-Use case: preserve root volume when instance is terminated
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Amazon Machine Image (AMI)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud)
