@@ -39,7 +39,7 @@ latency
 
 ## Next Steps
 
-- Amazon Machine Image (AMI)
+- EBS Snapshots
 
 ## Social Proof
 
