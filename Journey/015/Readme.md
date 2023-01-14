@@ -17,8 +17,6 @@ to your instances while they run
 - Analogy: Think of them as a “network USB stick”
 - Free tier: 30 GB of free EBS storage of type General Purpose (SSD) or
 Magnetic per month
-
-### EBS Volume
 - It’s a network drive (i.e. not a physical drive)
 - It uses the network to communicate the instance, which means there might be a bit of
 latency
@@ -30,7 +28,7 @@ latency
 - You get billed for all the provisioned capacity
 - You can increase the capacity of the drive over time
 
-### AWS Software Development Kit (SDK)
+### EBS – Delete on Termination attribute
 - Controls the EBS behaviour when an EC2 instance terminates
 > By default, the root EBS volume is deleted (attribute enabled)
 <br> By default, any other attached EBS volume is not deleted (attribute disabled)
