@@ -44,8 +44,8 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 15 > [Introduction to EC2 Instance Storage](Journey/015/Readme.md)
 - [x] ☁️ 16 > [EBS Snapshots](Journey/016/Readme.md)
 - [x] ☁️ 17 > [Amazon Machine Image](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [x] ☁️ 18 > [EC2 Instance Store](Journey/018/Readme.md)
+- [x] ☁️ 19 > [EFS – Elastic File System](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
