@@ -50,7 +50,7 @@ I really hope to get AWS Certified Developer - Associate
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
+- [x] ☁️ 21 > [Elastic Load Balancing & Auto Scaling Groups](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
