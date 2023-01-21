@@ -1,52 +1,82 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Elastic Load Balancing & Auto Scaling Groups (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Elastic Load Balancing helps to manage incoming requests by optimally routing traffic so that no one instance is overwhelmed. To use Elastic Load Balancing with your Auto Scaling group, attach the load balancer to your Auto Scaling group. The journey will be like this:
+- Scalability & High Availability
+- Vertical Scalability
+- Horizontal Scalability
+- High Availability
+- High Availability & Scalability For EC2
+- Scalability vs Elasticity (vs Agility)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Scalability & High Availability
+- Scalability means that an application / system can handle greater loads
+by adapting.
+- There are two kinds of scalability:
+> Vertical Scalability
+<br> Horizontal Scalability (= elasticity)
+- Scalability is linked but different to High Availability
 
-## Try yourself
+### Vertical Scalability
+- Vertical Scalability means increasing the size
+of the instance
+- For example, your application runs on a
+t2.micro
+- Scaling that application vertically means
+running it on a t2.large
+- Vertical scalability is very common for non
+distributed systems, such as a database.
+- There’s usually a limit to how much you can
+vertically scale (hardware limit)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Horizontal Scalability
+- Horizontal Scalability means increasing the
+number of instances / systems for your
+application
+- Horizontal scaling implies distributed systems.
+-This is very common for web applications /
+modern applications
+- It’s easy to horizontally scale thanks the cloud
+offerings such as Amazon EC2
 
-### Step 1 — Summary of Step
+### High Availability first building in New York 
+- High Availability usually goes hand
+in hand with horizontal scaling
+- High availability means running
+your application / system in at
+least 2 Availability Zones
+- The goal of high availability is to
+survive a data center loss
+(disaster
 
-![Screenshot](https://via.placeholder.com/500x300)
+### High Availability & Scalability For EC2
+- Vertical Scaling: Increase instance size (= scale up / down)
+> From: t2.nano - 0.5G of RAM, 1 vCPU
+<br> To: u-12tb1.metal – 12.3 TB of RAM, 448 vCPUs
+- Horizontal Scaling: Increase number of instances (= scale out / in)
+> Auto Scaling Group
+<br> Load Balancer
+- High Availability: Run instances for the same application across multi AZ
+> Auto Scaling Group multi AZ
+<br> Load Balancer multi AZ
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Scalability vs Elasticity (vs Agility)
+- Scalability: ability to accommodate a larger load by making the hardware
+stronger (scale up), or by adding nodes (scale out)
+- Elasticity: once a system is scalable, elasticity means that there will be
+some “auto-scaling” so that the system can scale based on the load. This
+is “cloud-friendly”: pay-per-use, match demand, optimize costs
+- Agility: (not related to scalability - distractor) new IT resources are only
+a click away, which means that you reduce the time to make those
+resources available to your developers from weeks to just minutes.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Load balancing
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html#d-1)
