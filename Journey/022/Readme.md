@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Load Balancing (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Why use a load balancer? 
+- Spread load across multiple downstream instances 
+- Expose a single point of access (DNS) to your application 
+- Seamlessly handle failures of downstream instances
+- Do regular health checks to your instances 
+- Provide SSL termination (HTTPS) for your websites 
+- High availability across zones
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Why use an Elastic Load Balancer?
+- An ELB (Elastic Load Balancer) is a managed load balancer
+> AWS guarantees that it will be working
+> AWS takes care of upgrades, maintenance, high availability
+> AWS provides only a few configuration knobs
+- It costs less to setup your own load balancer but it will be a lot more
+effort on your end (maintenance, integrations)
+- 4 kinds of load balancers offered by AWS:
+> Application Load Balancer (HTTP / HTTPS only) – Layer 7
+> Network Load Balancer (ultra-high performance, allows for TCP) – Layer 4
+> Gateway Load Balancer – Layer 3
+> Classic Load Balancer (retired in 2023) – Layer 4 & 7
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Auto Scaling Group
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html#d-1)
