@@ -54,7 +54,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 22 > [Load Balancing](Journey/022/Readme.md)
 - [x] ☁️ 23 > [Auto Scaling Group](Journey/023/Readme.md)
 - [x] ☁️ 24 > [Introduction to Amazon S3](Journey/024/Readme.md)
-- [ ] ☁️ 25 > [](Journey/025/Readme.md)
+- [x] ☁️ 25 > [Amazon S3 - Security](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
