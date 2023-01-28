@@ -56,7 +56,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 24 > [Introduction to Amazon S3](Journey/024/Readme.md)
 - [x] ☁️ 25 > [Amazon S3 - Security](Journey/025/Readme.md)
 - [x] ☁️ 26 > [Amazon S3 – Static Website Hosting, Amazon S3 -Versioning, Amazon S3 – Replication (CRR & SRR)](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
+- [x] ☁️ 27 > [S3 Storage Classes](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
