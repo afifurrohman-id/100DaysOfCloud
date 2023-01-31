@@ -68,7 +68,7 @@ distribution…
 
 ## Next Steps
 
-- S3 Encryption 
+- AWS Snow Family
 
 ## Social Proof
 
