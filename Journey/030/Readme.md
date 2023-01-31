@@ -1,52 +1,52 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS OpsHub, Hybrid Cloud for Storage, AWS Storage Gateway (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### AWS OpsHub
+- Historically, to use Snow Family devices, you
+needed a CLI (Command Line Interface tool)
+- Today, you can use AWS OpsHub (a software you install on your computer / laptop) to
+manage your Snow Family Device
+>• Unlocking and configuring single or clustered devices
+<br>• Transferring files
+<br>• Launching and managing instances running on Snow
+Family Devices
+<br>• Monitor device metrics (storage capacity, active
+instances on your device)
+<br>• Launch compatible AWS services on your devices
+(ex: Amazon EC2 instances, AWS DataSync, Network File System (NFS))
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Hybrid Cloud for Storage
+- AWS is pushing for ”hybrid cloud”
+>• Part of your infrastructure is on-premises
+<br>• Part of your infrastructure is on the cloud
+- This can be due to
+>• Long cloud migrations
+<br>• Security requirements
+<br>• Compliance requirements
+<br>• IT strategy
+- S3 is a proprietary storage technology (unlike EFS / NFS), so how do you
+expose the S3 data on-premise?
+- AWS Storage Gateway!
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### AWS Storage Gateway
+- Bridge between on-premise data and cloud
+data in S3
+- Hybrid storage service to allow on- premises to seamlessly use the AWS Cloud
+- Use cases: disaster recovery, backup &
+restore, tiered storage
+- Types of Storage Gateway:
+>• File Gateway
+<br>• Volume Gateway
+<br>• Tape Gateway
+- No need to know the types at the exam
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Databases Section
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

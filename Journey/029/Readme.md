@@ -16,7 +16,7 @@
 
 ## Next Steps
 
-- AWS OpsHub
+- AWS OpsHub, Hybrid Cloud for Storage, AWS Storage Gateway
 
 ## Social Proof
 
