@@ -58,12 +58,12 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 26 > [Amazon S3 – Static Website Hosting, Amazon S3 -Versioning, Amazon S3 – Replication (CRR & SRR)](Journey/026/Readme.md)
 - [x] ☁️ 27 > [S3 Storage Classes](Journey/027/Readme.md)
 - [x] ☁️ 28 > [AWS Snow Family](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [x] ☁️ 29 > [Meet 3 (Setting Adapter, Ip Address Vm, Connect vm to internet & Host OS)](Journey/029/Readme.md)
+- [x] ☁️ 30 > [AWS OpsHub](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
+- [x] ☁️ 31 > [AWS Storage Gateway](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)

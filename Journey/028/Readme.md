@@ -80,8 +80,8 @@ facility)
 
 ## Next Steps
 
-- AWS OpsHub
+- Meet 3 (Setting Adapter, Ip Address Vm, Connect vm to internet & Host OS)
 
 ## Social Proof
 
-[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html#d-1)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

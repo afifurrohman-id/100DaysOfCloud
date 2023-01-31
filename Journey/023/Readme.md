@@ -45,4 +45,4 @@ has predictable time based patterns
 
 ## Social Proof
 
-[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html#d-1)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)
