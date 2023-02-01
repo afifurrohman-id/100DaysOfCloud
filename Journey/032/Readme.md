@@ -1,52 +1,62 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# AWS RDS (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- RDS stands for Relational Database Service
+- It’s a managed DB service for DB use SQL as a query language.
+- It allows you to create databases in the cloud that are managed by AWS
+>• Postgres
+<br>• MySQL
+<br>• MariaDB
+<br>• Oracle
+<br>• Microsoft SQL Server
+<br>• Aurora (AWS Proprietary database)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Advantage over using RDS versus deploying
+DB on EC2
+- RDS is a managed service:
+>• Automated provisioning, OS patching
+<br>• Continuous backups and restore to specific timestamp (Point in Time Restore)!
+<br>• Monitoring dashboards
+<br>• Read replicas for improved read performance
+<br>• Multi AZ setup for DR (Disaster Recovery)
+<br>• Maintenance windows for upgrades
+<br>• Scaling capability (vertical and horizontal)
+<br>• Storage backed by EBS (gp2 or io1)
+- BUT you can’t SSH into your instances
 
-## Try yourself
+### Amazon Aurora
+- Aurora is a proprietary technology from AWS (not open sourced)
+- PostgreSQL and MySQL are both supported as Aurora DB
+- Aurora is “AWS cloud optimized” and claims 5x performance improvement
+over MySQL on RDS, over 3x the performance of Postgres on RDS
+- Aurora storage automatically grows in increments of 10GB, up to 64 TB.
+- Aurora costs more than RDS (20% more) – but is more efficient
+- Not in the free tier
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### RDS Deployments: Read Replicas, Multi-AZ
+- Read Replicas:
+>• Scale the read workload of your DB
+<br>• Can create up to 5 Read Replicas
+<br>• Data is only written to the main DB
 
-### Step 1 — Summary of Step
+- Multi-AZ:
+>• Failover in case of AZ outage (high availability)
+<br>• Data is only read/written to the main database
+<br>• Can only have 1 other AZ as failover
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### RDS Deployments: Multi-Region
+- Multi-Region (Read Replicas)
+>• Disaster recovery in case of region issue
+<br>• Local performance for global reads
+<br>• Replication cost
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Amazon ElastiCache
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

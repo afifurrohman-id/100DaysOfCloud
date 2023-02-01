@@ -64,7 +64,7 @@ I really hope to get AWS Certified Developer - Associate
 ## Into the bushy, thorny forest
 
 - [x] ☁️ 31 > [Databases Section](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
+- [x] ☁️ 32 > [AWS RDS](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
