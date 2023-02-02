@@ -65,8 +65,8 @@ I really hope to get AWS Certified Developer - Associate
 
 - [x] ☁️ 31 > [Databases Section](Journey/031/Readme.md)
 - [x] ☁️ 32 > [AWS RDS](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
+- [x] ☁️ 33 > [Amazon ElastiCache](Journey/033/Readme.md)
+- [x] ☁️ 34 > [Amazon DynamoDB](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
