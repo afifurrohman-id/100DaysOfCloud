@@ -1,52 +1,43 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Amazon S3 Intro (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Fully Managed Highly available with replication across 3 AZ
+- NoSQL database - not a relational database
+- Scales to massive workloads, distributed “serverless” database
+- Millions of requests per seconds, trillions of row, 100s of TB of storage
+- Fast and consistent in performance
+- Single-digit millisecond latency – low latency retrieval
+- Integrated with IAM for security, authorization and administration
+- Low cost and auto scaling capabilities
+- Standard & Infrequent Access (IA) Table Class
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### DynamoDB – type of data
+- DynamoDB is a key/value database
 
-## Try yourself
+### DynamoDB Accelerator - DAX
+- Fully Managed in-memory cache for
+DynamoDB
+- 10x performance improvement – single- digit millisecond latency to microseconds
+latency – when accessing your DynamoDB
+tables
+- Secure, highly scalable & highly available
+- Difference with ElastiCache at the CCP
+level: DAX is only used for and is
+integrated with DynamoDB, while
+ElastiCache can be used for other
+databases
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### DynamoDB – Global Tables
+- Make a DynamoDB table accessible with low latency in multiple-regions
+- Active-Active replication (read/write to any AWS Region)
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Redshift
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)
