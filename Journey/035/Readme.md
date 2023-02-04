@@ -1,52 +1,43 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon Redshift, Amazon EMR, Amazon Athena (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Amazon Redshift
+- Redshift is based on PostgreSQL, but it’s not used for OLTP
+- It’s OLAP – online analytical processing (analytics and data warehousing)
+- Load data once every hour, not every second
+- 10x better performance than other data warehouses, scale to PBs of data
+- Columnar storage of data (instead of row based)
+- Massively Parallel Query Execution (MPP), highly available
+- Pay as you go based on the instances provisioned
+- Has a SQL interface for performing the queries
+- BI tools such as AWS Quicksight or Tableau integrate with it
 
-## Try yourself
+### Amazon EMR
+- EMR stands for “Elastic MapReduce”
+- EMR helps creating Hadoop clusters (Big Data) to analyze and process
+vast amount of data
+- The clusters can be made of hundreds of EC2 instances
+- Also supports Apache Spark, HBase, Presto, Flink…
+- EMR takes care of all the provisioning and configuration
+- Auto-scaling and integrated with Spot instances
+- Use cases: data processing, machine learning, web indexing, big data…
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Amazon Athena
+- Serverless query service to analyze data stored in Amazon S3
+- Uses standard SQL language to query the files
+- Supports CSV, JSON, ORC, Avro, and Parquet (built on Presto)
+- Pricing: $5.00 per TB of data scanned
+- Use compressed or columnar data for cost-savings (less scan)
+- Use cases: Business intelligence / analytics / reporting, analyze &
+query VPC Flow Logs, ELB Logs, CloudTrail trails, etc...
+- Exam Tip: analyze data in S3 using serverless SQL, use Athena
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Amazon QuickSight, DocumentDB, Amazon Neptune
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

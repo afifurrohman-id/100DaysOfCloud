@@ -36,7 +36,7 @@ databases
 
 ## Next Steps
 
-- Redshift
+- Redshift, EMR, Athena
 
 ## Social Proof
 

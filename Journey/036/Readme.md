@@ -1,52 +1,51 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon QuickSight, DocumentDB, Amazon Neptune (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Amazon QuickSight
+- Serverless machine learning-powered business intelligence service to
+create interactive dashboards
+- Fast, automatically scalable, embeddable, with per-session pricing
+- Use cases:
+>• Business analytics
+<br>• Building visualizations
+<br>• Perform ad-hoc analysis
+<br>• Get business insights using data
+- Integrated with RDS, Aurora,
+Athena, Redshift, S3…
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### DocumentDB
+- Aurora is an “AWS-implementation” of PostgreSQL / MySQL …
+- DocumentDB is the same for MongoDB (which is a NoSQL database)
+- MongoDB is used to store, query, and index JSON data
+- Similar “deployment concepts” as Aurora
+- Fully Managed, highly available with replication across 3 AZ
+- DocumentDB storage automatically grows in increments of 10GB, up to 64 TB.
+- Automatically scales to workloads with millions of requests per seconds
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Amazon Neptune 
+- Fully managed graph database 
+- A popular graph dataset would be a social network 
+>• Users have friends 
+<br>• Posts have comments 
+<br>• Comments have likes from users 
+<br>• Users share and like posts… 
+- Highly available across 3 AZ, with up to 15 read replicas 
+- Build and run applications working with highly connected
+datasets
+– optimized for these complex and hard queries
+- Can store up to billions of relations and query the graph with
+milliseconds latency
+- Highly available with replications across multiple AZs 
+- Great for knowledge graphs (Wikipedia), fraud detection,
+recommendation engines, social networking
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Amazon QLDB, Amazon Managed Blockchain, AWS Glue 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

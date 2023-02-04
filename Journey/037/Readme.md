@@ -1,52 +1,37 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Amazon QLDB, Amazon Managed Blockchain, AWS Glue (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Amazon QLDB
+- QLDB stands for ”Quantum Ledger Database”
+- A ledger is a book recording financial transactions
+- Fully Managed, Serverless, High available, Replication across 3 AZ
+- Used to review history of all the changes made to your application data over time
+- Immutable system: no entry can be removed or modified, cryptographically verifiable
+- 2-3x better performance than common ledger blockchain frameworks, manipulate data using SQL
+- Difference with Amazon Managed Blockchain: no decentralization component, in accordance with 
 
-## Try yourself
+### Amazon Managed Blockchain
+- Blockchain makes it possible to build applications where multiple parties
+can execute transactions without the need for a trusted, central
+authority.
+- Amazon Managed Blockchain is a managed service to:
+>• Join public blockchain networks
+<br>• Or create your own scalable private network
+- Compatible with the frameworks Hyperledger Fabric & Ethereum
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### AWS Glue
+- Managed extract, transform, and load (ETL) service 
+- Useful to prepare and transform data for analytics 
+- Fully serverless service 
+- Glue Data Catalog: catalog of datasets 
+>• can be used by Athena, Redshift, EMR 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- DMS – Database Migration Service
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)
