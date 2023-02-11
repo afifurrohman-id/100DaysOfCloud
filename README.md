@@ -3,12 +3,13 @@
 </p>
 
 ## The Challenge
+
 1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
 2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
 3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
 4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
 5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+6. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
 ## Afifurrohman's Cloud Journey
 
@@ -71,7 +72,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 36 > [Amazon QuickSight, DocumentDB, Amazon Neptune](Journey/036/Readme.md)
 - [x] ☁️ 37 > [Amazon QLDB, Amazon Managed Blockchain, AWS Glue](Journey/037/Readme.md)
 - [x] ☁️ 38 > [DMS – Database Migration Service](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
+- [x] ☁️ 39 > [Docker Intro](Journey/039/Readme.md)
 - [ ] ☁️ 40 > [](Journey/040/Readme.md)
 
 ## Trekking the dunes
