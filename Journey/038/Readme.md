@@ -16,7 +16,7 @@ SQL Server to Aurora
 
 ## Next Steps
 
-- Other Compute Service
+- Docker intro
 
 ## Social Proof
 
