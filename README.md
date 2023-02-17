@@ -73,7 +73,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 37 > [Amazon QLDB, Amazon Managed Blockchain, AWS Glue](Journey/037/Readme.md)
 - [x] ☁️ 38 > [DMS – Database Migration Service](Journey/038/Readme.md)
 - [x] ☁️ 39 > [Docker Intro](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [x] ☁️ 40 > [What is containerization?](Journey/040/Readme.md)
 
 ## Trekking the dunes
 

@@ -13,9 +13,10 @@
 <br>* Develop your application and its supporting components using containers.
 <br>* The container becomes the unit for distributing and testing your application.
 <br>* When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
+
 ## Next Steps
 
-- 
+- What is containerization?
 
 ## Social Proof
 
