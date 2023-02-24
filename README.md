@@ -77,7 +77,7 @@ I really hope to get AWS Certified Developer - Associate
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
+- [x] ☁️ 41 > [Meet 4 | IAM Create Users And Groups](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
