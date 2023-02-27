@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Docker Image (Udemy | Stephane Mareek)
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Where Docker images are stored? 
+- Docker images are stored in Docker Repositories 
+>- Public: Docker Hub https://hub.docker.com/ 
+<br>• Find base images for many technologies or OS: 
+<br>• Ubuntu 
+<br>• MySQL 
+<br>• NodeJS, Java… 
+- Private: Amazon ECR (Elastic Container Registry)
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Docker versus Virtual Machines
+- Docker is ”sort of” a virtualization technology, but not exactly
+- Resources are shared with the host => many containers on one server
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Amazon • ECS
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

@@ -60,7 +60,7 @@
 
 ## Next Steps
 
-- 
+- Docker image
 
 ## Social Proof
 

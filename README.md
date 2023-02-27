@@ -78,9 +78,9 @@ I really hope to get AWS Certified Developer - Associate
 ## Trekking the dunes
 
 - [x] ☁️ 41 > [Meet 4 | IAM Create Users And Groups](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
-- [ ] ☁️ 43 > [](Journey/043/Readme.md)
-- [ ] ☁️ 44 > [](Journey/044/Readme.md)
+- [x] ☁️ 42 > [Docker Image](Journey/042/Readme.md)
+- [x] ☁️ 43 > [Amazon ECS](Journey/043/Readme.md)
+- [x] ☁️ 44 > [Intro to Serverless](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
