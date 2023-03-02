@@ -74,7 +74,7 @@ You organize your code into Lambda functions. Lambda runs your function only whe
 
 ## Next Steps
 
-- Meet 5 | EC2 Instance Web Server
+- Meet 5 | EC2 Instance Web Server & SSH
 
 ## Social Proof
 
