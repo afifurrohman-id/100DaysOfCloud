@@ -39,7 +39,7 @@
 
 ## Next Steps
 
-- 
+- Amazon API Gateway, Batch, Amazon Lightsail 
 
 ## Social Proof
 

@@ -1,52 +1,67 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Deploying and Managing Infrastructure at Scale Section (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### What is CloudFormation
+- CloudFormation is a declarative way of outlining your AWS 
+Infrastructure, for any resources (most of them are supported).
+- For example, within a CloudFormation template, you say:
+>• I want a security group
+<br>• I want two EC2 instances using this security group
+<br>• I want an S3 bucket
+<br>• I want a load balancer (ELB) in front of these machines
+- Then CloudFormation creates those for you, in the right order, with the 
+exact configuration that you specify
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Benefits of AWS CloudFormation 
+- Infrastructure as code
+>• No resources are manually created, which is excellent for control
+<br>• Changes to the infrastructure are reviewed through code
 
-### Step 1 — Summary of Step
+- Cost
+>• Each resources within the stack is tagged with an identifier so you can easily see how 
+much a stack costs you
+<br>• You can estimate the costs of your resources using the CloudFormation template
+<br>• Savings strategy: In Dev, you could automation deletion of templates at 5 PM and 
+recreated at 8 AM, safely
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Productivity
+>• Ability to destroy and re-create an infrastructure on the cloud on the fly
+<br>• Automated generation of Diagram for your templates!
+<br>• Declarative programming (no need to figure out ordering and orchestration)
 
-### Step 1 — Summary of Step
+- Don’t re-invent the wheel
+>• Leverage existing templates on the web!
+<br>• Leverage the documentation
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Supports (almost) all AWS resources:
+>• Everything we’ll see in this course is supported
+<br>• You can use “custom resources” for resources that are not supported
 
-### Step 3 — Summary of Step
+### AWS Cloud Development Kit (CDK)
+- Define your cloud infrastructure using a familiar language:
+>• JavaScript/TypeScript, Python, Java, and .NET
+- The code is “compiled” into a CloudFormation template (JSON/YAML)
+- You can therefore deploy infrastructure and application runtime code together
+>• Great for Lambda functions
+<br>• Great for Docker containers in ECS / EKS
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Developer problems on AWS
+- Managing infrastructure
+- Deploying Code
+- Configuring all the databases, load balancers, etc
+- Scaling concerns
+- Most web apps have the same architecture (ALB + ASG)
+- All the developers want is for their code to run!
+- Possibly, consistently across different applications and environments
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- AWS Elastic Beanstalk
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

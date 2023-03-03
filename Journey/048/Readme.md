@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# AWS Elastic Beanstalk (Udemy | Stephane Mareek)
 
 ## Introduction
+- Elastic Beanstalk is a developer centric view of deploying 
+an application on AWS
+- It uses all the component’s we’ve seen before:
+EC2, ASG, ELB, RDS, etc… 
+- But it’s all in one view that’s easy to make sense of! 
+- We still have full control over the configuration 
+- Beanstalk = Platform as a Service (PaaS) 
+- Beanstalk is free but you pay for the underlying instances
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Elastic Beanstalk 
+- Managed service 
+>• Instance configuration / OS is handled by Beanstalk 
+<br>• Deployment strategy is configurable but performed by Elastic Beanstalk 
+<br>• Capacity provisioning 
+<br>• Load balancing & auto-scaling 
+<br>• Application health-monitoring & responsiveness 
 
-## Try yourself
+- Just the application code is the responsibility of the developer 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Three architecture models: 
+>• Single Instance deployment: good for dev 
+<br>• LB + ASG: great for production or pre-production web applications 
+<br>• ASG only: great for non-web apps in production (workers, etc..)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Support for many platforms:
+>• Go
+<br>• Java SE
+<br>• Java with Tomcat
+<br>• .NET on Windows Server with IIS
+<br>• Node.js
+<br>• PHP
+<br>• Python
+<br>• Ruby
+<br>• Packer Builder
+<br>• Single Container Docker
+<br>• Multi-Container Docker
+<br>• Preconfigured Docker
+- If not supported, you can write 
+your custom platform (advanced)
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- AWS CodeDeploy, AWS CodeCommit, AWS CodeBuild, AWS CodePipeline, AWS CodeArtifact, AWS CodeStar, AWS Cloud9
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)

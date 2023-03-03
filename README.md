@@ -82,9 +82,9 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 43 > [Amazon ECS](Journey/043/Readme.md)
 - [x] ☁️ 44 > [Intro to Serverless](Journey/044/Readme.md)
 - [x] ☁️ 45 > [Meet 5 | EC2 Instance Web Server & SSH](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [](Journey/046/Readme.md)
-- [ ] ☁️ 47 > [](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [](Journey/048/Readme.md)
+- [x] ☁️ 46 > [Amazon API Gateway, Batch, Amazon Lightsail](Journey/046/Readme.md)
+- [x] ☁️ 47 > [Deploying and Managing Infrastructure at Scale Section](Journey/047/Readme.md)
+- [x] ☁️ 48 > [AWS Elastic Beanstalk](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [](Journey/049/Readme.md)
 - [ ] ☁️ 50 > [](Journey/050/Readme.md)
 
