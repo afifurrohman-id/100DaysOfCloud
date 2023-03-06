@@ -85,7 +85,7 @@ I really hope to get AWS Certified Developer - Associate
 - [x] ☁️ 46 > [Amazon API Gateway, Batch, Amazon Lightsail](Journey/046/Readme.md)
 - [x] ☁️ 47 > [Deploying and Managing Infrastructure at Scale Section](Journey/047/Readme.md)
 - [x] ☁️ 48 > [AWS Elastic Beanstalk](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [](Journey/049/Readme.md)
+- [x] ☁️ 49 > [AWS CodeDeploy, AWS CodeCommit, AWS CodeBuild, AWS CodePipeline, AWS CodeArtifact, AWS CodeStar, AWS Cloud9](Journey/049/Readme.md)
 - [ ] ☁️ 50 > [](Journey/050/Readme.md)
 
 ## Winding through the canyons
