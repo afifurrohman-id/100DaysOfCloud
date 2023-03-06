@@ -3,7 +3,7 @@
 
 ## Introduction
 An Amazon Machine Image is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud. It serves as the basic unit of deployment for services delivered using EC2. The journey will be like this:
-- AMI = Amazon Machine Image Intro
+- AMI = Amazon Machine Image
 - AMI Process (from an EC2 instance) 
 - EC2 Image Builder
 
