@@ -90,7 +90,7 @@ I really hope to get AWS Certified Developer - Associate
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
+- [x] ☁️ 51 > [Meet 7 | Application Load Balancer, Auto Auto Scaling Groups](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
