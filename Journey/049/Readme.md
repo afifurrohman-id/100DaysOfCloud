@@ -83,7 +83,7 @@ in real
 
 ## Next Steps
 
-- Systems Manager – SSM Session Manager
+- Meet 6 | EBS, AMI
 
 ## Social Proof
 
