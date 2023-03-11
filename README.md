@@ -91,10 +91,10 @@ I really hope to get AWS Certified Developer - Associate
 ## Winding through the canyons
 
 - [x] ☁️ 51 > [Meet 7 | Application Load Balancer, Auto Auto Scaling Groups](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [](Journey/052/Readme.md)
-- [ ] ☁️ 53 > [](Journey/053/Readme.md)
-- [ ] ☁️ 54 > [](Journey/054/Readme.md)
-- [ ] ☁️ 55 > [](Journey/055/Readme.md)
+- [x] ☁️ 52 > [AWS Systems Manager (SSM), AWS OpsWorks](Journey/052/Readme.md)
+- [x] ☁️ 53 > [Global Infrastructure Section](Journey/053/Readme.md)
+- [x] ☁️ 54 > [Cloud Integration Section](Journey/054/Readme.md)
+- [x] ☁️ 55 > [Cloud Monitoring Section](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [](Journey/058/Readme.md)

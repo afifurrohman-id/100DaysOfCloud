@@ -1,52 +1,144 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Cloud Monitoring Section (Udemy | Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Amazon CloudWatch Metrics
+- CloudWatch provides metrics for every services in AWS
+- Metric is a variable to monitor (CPUUtilization, NetworkIn…)
+- Metrics have timestamps
+- Can create CloudWatch dashboards of metrics
 
-## Try yourself
+### Important Metrics 
+- EC2 instances: CPU Utilization, Status Checks, Network (not RAM)
+>• Default metrics every 5 minutes
+<br>• Option for Detailed Monitoring ($$$): metrics every 1 minute
+- EBS volumes: Disk Read/Writes
+- S3 buckets: BucketSizeBytes, NumberOfObjects, AllRequests
+- Billing:Total Estimated Charge (only in us-east-1)
+- Service Limits: how much you’ve been using a service API
+- Custom metrics: push your own metrics
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Amazon CloudWatch Alarms
+- Alarms are used to trigger notifications for any metric
+- Alarms actions…
+>• Auto Scaling: increase or decrease EC2 instances “desired” count
+<br>• EC2 Actions: stop, terminate, reboot or recover an EC2 instance
+<br>• SNS notifications: send a notification into an SNS topic
+- Various options (sampling, %, max, min, etc…)
+- Can choose the period on which to evaluate an alarm
+- Example: create a billing alarm on the CloudWatch Billing metric
+- Alarm States: OK. INSUFFICIENT_DATA, ALARM
 
-### Step 1 — Summary of Step
+### azon CloudWatch Logs 
+- CloudWatch Logs can collect log from: 
+>• Elastic Beanstalk: collection of logs from application 
+<br>• ECS: collection from containers 
+<br>• AWS Lambda: collection from function logs 
+<br>• CloudTrail based on filter 
+<br>• CloudWatch log agents: on EC2 machines or on-premises servers 
+<br>• Route53: Log DNS queries 
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Enables real-time monitoring of logs 
+- Adjustable CloudWatch Logs retention
 
-### Step 1 — Summary of Step
+### CloudWatch Logs for EC2
+- By default, no logs from your EC2 
+instance will go to CloudWatch
+- You need to run a CloudWatch 
+agent on EC2 to push the log files 
+you want
+- Make sure IAM permissions are 
+correct
+- The CloudWatch log agent can be 
+setup on-premises too
 
-![Screenshot](https://via.placeholder.com/500x300)
+### AWS CloudTrail
+- Provides governance, compliance and audit for your AWS Account
+- CloudTrail is enabled by default!
+- Get an history of events / API calls made within your AWS Account by:
+>• Console
+<br>• SDK
+<br>• CLI
+<br>• AWS Services
+- Can put logs from CloudTrail into CloudWatch Logs or S3
+- A trail can be applied to All Regions (default) or a single Region.
+- If a resource is deleted in AWS, investigate CloudTrail first!
 
-### Step 3 — Summary of Step
+### AWS X-Ray
+- Debugging in Production, the good old way:
+>• Test locally
+<br>• Add log statements everywhere
+<br>• Re-deploy in production
+- Log formats differ across applications and log analysis is hard. 
+- Debugging: one big monolith “easy”, distributed services “hard”
+- No common views of your entire architecture
+- Enter… AWS X-Ray!
 
-![Screenshot](https://via.placeholder.com/500x300)
+### AWS X-Ray advantages
+- Troubleshooting performance (bottlenecks) 
+- Understand dependencies in a microservice architecture 
+- Pinpoint service issues 
+- Review request behavior 
+- Find errors and exceptions 
+- Are we meeting time SLA? 
+- Where I am throttled? 
+- Identify users that are impacted
 
-## ☁️ Cloud Outcome
+### Amazon CodeGuru
+- An ML-powered service for automated code reviews and application performance recommendations 
+- Provides two functionalities
+>• CodeGuru Reviewer: automated code reviews for static code analysis (development)
+<br>• CodeGuru Profiler: visibility/recommendations about application performance during 
+runtime (production)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Amazon CodeGuru Reviewer
+- Identify critical issues, security 
+vulnerabilities, and hard-to-find bugs
+- Example: common coding best practices, 
+resource leaks, security detection, input 
+validation
+- Uses Machine Learning and automated 
+reasoning
+- Hard-learned lessons across millions of 
+code reviews on 1000s of open-source 
+and Amazon repositories
+- Supports Java and Python
+- Integrates with GitHub, Bitbucket, and 
+AWS CodeCommit
+
+### Amazon CodeGuru Profiler
+- Helps understand the runtime behavior of your 
+application
+- Example: identify if your application is consuming 
+excessive CPU capacity on a logging routine
+- Features:
+>• Identify and remove code inefficiencies
+<br>• Improve application performance (e.g., reduce CPU 
+utilization)
+<br>• Decrease compute costs
+<br>• Provides heap summary (identify which objects using 
+up memory)
+<br>• Anomaly Detection
+- Support applications running on AWS or on- premise
+- Minimal overhead on application
+
+### AWS Personal Health Dashboard
+- AWS Personal Health Dashboard provides alerts and remediation 
+guidance when AWS is experiencing events that may impact you.
+- While the Service Health Dashboard displays the general status of 
+AWS services, Personal Health Dashboard gives you a personalized 
+view into the performance and availability of the AWS services 
+underlying your AWS resources.
+- The dashboard displays relevant and timely information to help you 
+manage events in progress and provides proactive notification to 
+help you plan for scheduled activities. 
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- VPC Section
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Personal Web Article](https://afifurrohman-id.github.io/article/100DaysOfCloud/cloud.html)
